@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1030495899325135302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030495899325135320}
+  - component: {fileID: 1030495899325135303}
+  m_Layer: 0
+  m_Name: Master Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030495899325135320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030495899325135302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 275.1, y: 13.954994, z: 534.13403}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1030495899325135303
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030495899325135302}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: a7b4eff5bb281f1429fff427acaab1a5, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -8610579918395624373, guid: a7b4eff5bb281f1429fff427acaab1a5, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -4149553236165882092, guid: a7b4eff5bb281f1429fff427acaab1a5, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References:
+    - a9bf28f8860e8a24a9b6a2d67ce5927f: {fileID: 0}
+    - 3bd094914dcf20b4cad4579a35e8c542: {fileID: 0}
+    - e9a8a4da10021824c8f4e3a239a0d713: {fileID: 0}
+    - 1b20f62c1e5af8742b84e03bece6c4ee: {fileID: 0}
+    - aed03805266c5954da5d6ba3049b422a: {fileID: 0}
+    - e1ebb2b88fe166348aeb086d66de09fe: {fileID: 0}
+    - cb739414c4165764fb1e5ce658163e05: {fileID: 0}
+    - 83d33ce4850256e41b5b4fc798be7980: {fileID: 0}
+    - 66f25c44c90758341b92edae34775357: {fileID: 0}
